@@ -1,0 +1,15 @@
+POST localhost:9010/book/
+Content-Type: pkglication-json
+
+{
+   "name": "first",
+   "author": "first",
+   "publication": "first"
+
+}
+
+###
+GET localhost:9010/book/1
+
+###
+GET localhost:9010/book/
